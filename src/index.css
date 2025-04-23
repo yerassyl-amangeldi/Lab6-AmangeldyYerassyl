@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #FF5E78;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  aside {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #6B48FF;
+  }
+
+  div[style*="display: flex"] {
+    flex-direction: column;
+  }
+
+  main {
+    padding: 1rem;
+  }
+}
